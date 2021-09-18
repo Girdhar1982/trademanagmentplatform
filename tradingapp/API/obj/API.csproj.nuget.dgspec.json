@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\trademanagmentplatform\\tradingapp\\api\\API.csproj": {}
+    "H:\\trademanagmentplatform\\tradingapp\\API\\API.csproj": {}
   },
   "projects": {
-    "H:\\trademanagmentplatform\\tradingapp\\api\\API.csproj": {
+    "H:\\trademanagmentplatform\\tradingapp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\trademanagmentplatform\\tradingapp\\api\\API.csproj",
+        "projectUniqueName": "H:\\trademanagmentplatform\\tradingapp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "H:\\trademanagmentplatform\\tradingapp\\api\\API.csproj",
+        "projectPath": "H:\\trademanagmentplatform\\tradingapp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\manis\\.nuget\\packages\\",
-        "outputPath": "H:\\trademanagmentplatform\\tradingapp\\api\\obj\\",
+        "outputPath": "H:\\trademanagmentplatform\\tradingapp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\manis\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,12 @@
               "version": "[5.0.10, )"
             },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.10, )"
             },
