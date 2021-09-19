@@ -61,7 +61,7 @@ namespace API
 
 
 //cors needs to be between UseRouting and UseEndpoints
-app.UseCors(policy=>policy.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:4200"));
+app.UseCors(policy=>policy.AllowAnyHeader().AllowAnyMethod().WithOrigins("https://localhost:4200"));
       app.UseAuthorization();
 
       app.UseEndpoints(endpoints =>
